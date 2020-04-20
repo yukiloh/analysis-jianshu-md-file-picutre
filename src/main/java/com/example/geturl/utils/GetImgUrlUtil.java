@@ -24,7 +24,7 @@ public class GetImgUrlUtil {
             if (file.isFile()) {
                 try {
                     List<String> list = Files.readLines(file, Charsets.UTF_8);
-                    //参考https://upload-images.jianshu.io/upload_images/5858534-c171c323f995413f.png
+                    //参考地址:https://upload-images.jianshu.io/upload_images/5858534-c171c323f995413f.png
                     list.forEach(line->{
                         Matcher matcher = pattern.matcher(line);
                         while (matcher.find()) {
