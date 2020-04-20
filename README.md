@@ -19,3 +19,6 @@
 
 ### 运行方法
 test文件夹下的```GetUrlApplicationTests.java```
+
+### 效果图
+![示意图](https://raw.githubusercontent.com/yukiloh/my-image-repo/master/%E6%89%B9%E6%B3%A8%202020-04-20%20124228.png)
