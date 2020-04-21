@@ -1,6 +1,8 @@
 package com.example.geturl;
 
 import com.example.geturl.utils.GetImgUrlUtil;
+import com.github.houbb.markdown.toc.core.impl.AtxMarkdownToc;
+import com.github.houbb.markdown.toc.vo.TocGen;
 import com.google.common.base.Charsets;
 import com.google.common.graph.Traverser;
 import com.google.common.io.Files;
@@ -24,5 +26,11 @@ class GetUrlApplicationTests {
 
         GetImgUrlUtil.getImgUrlUtil(path);
         System.out.println("done");
+    }
+
+
+    @Test
+    void contextLoads2() {
+        TocGen tocGen = AtxMarkdownToc.newInstance().genTocFile("README.md");
     }
 }
