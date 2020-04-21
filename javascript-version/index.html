@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+
+	<meta charset = "UTF-8">
+	<title>Title</title>
+	<script src = "static/GetImgUrlUtil.js"></script>
+</head>
+<body>
+
+<div>
+<!--	<input type = "file" directory="" onchange="getImgUrl(files)" />-->
+	<input type="file" id="folder_input" webkitdirectory directory  onchange="doFunc(files)"/>
+	<div  id="div-define" hidden style="color: indianred">
+		<!--写这2个input是方便ctrl+a复制-->
+		<input type="button" value="因为存在跨域关系,只通过浏览器无法进行直接下载" disabled style="color: indianred">
+		<input type="button" value="直接Ctrl + A全选再复制,贴到其他下载工具进行下载" disabled style="color: indianred">
+	</div>
+	<div id="div1"></div>
+</div>
+
+<script>
+	let oDiv1 = document.getElementById("div1");
+	let oDiv2 = document.getElementById("div-define");
+
+
+  function doFunc(files) {
+      getImgUrl(files,oDiv1);
+      oDiv2.hidden = null;
+  }
+
+</script>
+</body>
+</html>

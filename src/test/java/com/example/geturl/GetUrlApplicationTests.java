@@ -19,13 +19,10 @@ class GetUrlApplicationTests {
 
     @Test
     void contextLoads() {
-        //
-        String path = "C:\\Users\\yukil\\Desktop\\user-5858534-1587011352";
+        //需要设置根文件夹的路径,注意win下的\在java中需要更改为\\
+        String path = "C:\\Users\\Me\\Desktop\\user-1234567-1587011352";
 
         GetImgUrlUtil.getImgUrlUtil(path);
         System.out.println("done");
     }
-
-
-
 }

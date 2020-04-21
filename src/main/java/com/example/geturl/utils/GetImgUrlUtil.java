@@ -19,7 +19,7 @@ public class GetImgUrlUtil {
         Iterable<File> files = fileTraverser.depthFirstPreOrder(root);
 
         //正则匹配,参考地址:https://upload-images.jianshu.io/upload_images/5858534-c171c323f995413f.png
-        Pattern pattern = Pattern.compile("(https://.*(\\.png)||(\\.jpg))");
+        Pattern pattern = Pattern.compile("https?:\\/\\/.*\\.(png|jpg|jpeg|gif)");
 
         //进行文件夹的遍历
         files.forEach(file -> {
