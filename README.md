@@ -23,6 +23,8 @@
 ### JavaScript版
 ##### 运行方法
 入口文件: ```/javascript-version/index.html```
+或者可以下载[release](https://github.com/yukiloh/get-jianshu-md-file-picutre/releases)
+
 
 ##### 效果图
 因为跨域问题需要另外手动下载,直接ctrl+a就可以复制所有地址
