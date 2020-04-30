@@ -11,7 +11,7 @@
     <groupId>com.example</groupId>
     <artifactId>geturl</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>geturl</name>
+    <name>get-jianshu-posts-url</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

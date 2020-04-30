@@ -1,4 +1,4 @@
-package com.example.geturl.utils;
+package com.example.getUrl.utils;
 
 import com.google.common.base.Charsets;
 import com.google.common.graph.Traverser;

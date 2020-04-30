@@ -1,4 +1,4 @@
-package com.example.geturl;
+package com.example.getUrl;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
