@@ -1,6 +1,6 @@
-package com.example.getUrl;
+package com.example.jianshu;
 
-import com.example.getUrl.utils.GetImgUrlUtil;
+import com.example.jianshu.utils.GetImgUrlUtil;
 import com.github.houbb.markdown.toc.core.impl.AtxMarkdownToc;
 import com.github.houbb.markdown.toc.vo.TocGen;
 import org.junit.jupiter.api.Test;

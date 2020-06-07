@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>geturl</artifactId>
+    <artifactId>jianshu</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>get-jianshu-posts-url</name>
+    <name>analysis-jianshu-md-file-picutre</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

@@ -1,4 +1,4 @@
-package com.example.getUrl.utils;
+package com.example.jianshu.utils;
 
 import com.google.common.base.Charsets;
 import com.google.common.graph.Traverser;
